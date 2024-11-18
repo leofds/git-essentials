@@ -293,6 +293,7 @@ The HEAD will point to the new branch
 
 ```
 git checkout <branch_name>
+git checkout -t <branch_name>    # The -t option creates a new tracking branch for the remote branch
 ```
 
 **Create a new branch and switch to it**
