@@ -138,6 +138,7 @@ git restore --staged .                # Todos os arquivos
 
 ```
 git revert <commit_hash>
+git revert <commit_hash> -n    # Sem commit
 ```
 
 Revertendo apenas um arquivo (2 formas)
