@@ -177,8 +177,8 @@ git log --oneline --all
 git log -- <file_name>        # File history
 git log --author=leonardo     # By author
 git log --grep=<pattern>      # Log messsage that matches the specified pattern
-git log --diff-filter=M -- <file_name>    # File modification history
-                                             # (A) Added, (C) Copied, (D) Deleted, (M) Modified, (R) Renamed, ...
+git log --diff-filter=M -- <file_name>    # File modification history: (A) Added, (C) Copied, (D) Deleted, (M) Modified, (R) Renamed, ...
+git log --oneline --graph --decorate --all
 ```
 
 **Historic with formatting**
